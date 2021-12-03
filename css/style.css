@@ -3261,7 +3261,7 @@ h6 {
   .footer_area:before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: -200px;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -3270,8 +3270,7 @@ h6 {
     z-index: -1; }
   @media (max-width: 1024px) {
     .footer_area {
-      padding: 60px 0; 
-      background: rgba(255, 255, 255, 0);} }
+      padding: 60px 0; } }
   .footer_area .footer_logo {
     text-align: center; }
     .footer_area .footer_logo h4 {
@@ -3306,4 +3305,9 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+.tools{
+  margin-bottom: 10%;
+}
+
+
 /*# sourceMappingURL=style.css.map */
